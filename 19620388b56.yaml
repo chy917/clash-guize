@@ -24,8 +24,8 @@ dns:
     - https://dns.alidns.com/dns-query
   # namesever尽量用运营商提供的DNS
   nameserver:
-    - 202.99.192.66
-    - 202.99.192.68
+    - 223.5.5.5
+    - 223.6.6.6
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -529,4 +529,6 @@ rules:
   - "DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连"
   - "PROCESS-NAME,SGMyInput,DIRECT"
   - "PROCESS-NAME,Photoshop,DIRECT"
+  - "DOMAIN-KEYWORD,nvidia,DIRECT"
+  - "DOMAIN-KEYWORD,bing,DIRECT"
 
